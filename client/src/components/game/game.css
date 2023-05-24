@@ -1,0 +1,70 @@
+.game {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    float: left;
+    margin: 5px;
+    border: cornsilk solid;
+    border-radius: 20px;
+    background: rgba(76, 175, 80, 0.3);
+    overflow:hidden;
+    position: relative;
+}
+
+
+
+
+#genres {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 450px;
+    height: 100px;
+    float: left; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle h3{
+    height: 3050px;
+position: absolute;
+right: 10px;
+top: 40px;
+}
+.tittle{
+    height: 80px;
+}
+
+.datos {
+    color: white;
+    margin-left: 1rem;
+   
+}
+
+
+
+.genresButton {
+    position:relative;
+    width: 100px;
+    height: 40px;
+    color: black;
+    margin-left: 1rem;
+    background-color: greenyellow;
+    border: indigo solid;
+    border-radius: 50px;
+    
+}
+
+#inf {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    
+    .game{
+     width: 100vw;
+     
+     
+    }
+  }

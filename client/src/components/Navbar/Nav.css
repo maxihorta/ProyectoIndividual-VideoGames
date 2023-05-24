@@ -1,0 +1,38 @@
+.navbar {
+    height: 56px;
+    width: 100vw;
+   
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://media.istockphoto.com/photos/dark-black-and-blue-grungy-wall-background-for-display-or-montage-of-picture-id1150477705?k=6&m=1150477705&s=612x612&w=0&h=q0f-napJKrSFE3ETwopLe6ETDRXk50zv7hctci_-j4A=);
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+#letrasdellogo {
+  margin-left: 1rem;
+}
+.logoapp {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 52px;
+}
+
+@media (max-width: 480px) {
+    
+  #letrasdellogo {
+    display: none;
+  }
+  .navbar{
+    justify-content: center;
+    width: 110%;
+  }
+  .logoapp{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+  }
+}
+
+
